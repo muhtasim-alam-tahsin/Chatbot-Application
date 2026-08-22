@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Local data (regenerated at runtime)
+chroma_db/
+checkpoints.sqlite
+checkpoints.sqlite-journal
+checkpoints.sqlite-wal
+checkpoints.sqlite-shm
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.vscode/
